@@ -3,11 +3,11 @@ name: Windows
 on:
   push:
     branches:
-    - main
+    - master
 
 jobs:
   test:
     runs-on: windows-latest
     steps:
-    - uses: Onetail/github-action@v1.0.0
+    - uses: Onetail/github-action@v1.0.1
     - run: true

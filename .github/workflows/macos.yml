@@ -3,11 +3,11 @@ name: macOS
 on:
   push:
     branches:
-    - main
+    - master
 
 jobs:
   test:
     runs-on: macos-latest
     steps:
-    - uses: Onetail/github-action@v1.0.0
+    - uses: Onetail/github-action@v1.0.1
     - run: true
