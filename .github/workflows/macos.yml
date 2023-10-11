@@ -1,0 +1,13 @@
+name: macOS
+
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  test:
+    runs-on: macos-latest
+    steps:
+    - uses: Onetail/github-action@v1.0.0
+    - run: true
